@@ -1,0 +1,106 @@
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+@font-face {
+   font-family: gothic;
+   src: url(https://siontea.com/gothic.ttf);
+}
+h1 {
+	font-family:gothic;
+	text-align: center;
+	font-size: 72px;
+      	color: white;
+}
+p {
+	font-family:gothic;
+	text-align: center;
+	font-size:25px;
+}
+h2 {
+	font-family:gothic;
+	font-size:40px;
+   	color: white;
+}
+h3 {
+	font-family:gothic;
+	font-size:30px;
+   	color: white;
+}
+a {
+	font-family:gothic;
+    	color: white;
+}
+p {
+	font-family:gothic;
+      	color: white;
+}
+.center {
+	text-align:center;
+}
+.left {
+	text-align:left;
+}
+.right {
+	text-align:right;
+}
+.aligncenter {
+	float:right;
+	position:relative;
+	left:50%;
+}
+th {
+	font-weight: bold;
+}
+
+th.full {
+	text-align: center;
+	letter-spacing: 0.5px;
+	border: 1px solid black;
+	border-radius: 4px;
+}
+
+td, th, tr {
+	padding: 0.35em 1.5em;
+	text-align: center;
+	background: #ffffff;
+}
+
+td, th {
+	font-family: gothic;
+	border-radius: 4px;
+}
+
+tr:hover td {
+    background-color: #1affa3;
+}
+.btn {
+  background-color: #ffffff;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.5s;
+  border: 1px solid Black;
+  border-radius: 4px;
+}
+.btn:hover {
+  background-color: #1affa3;
+  color: white;
+  border: 1px solid  white;
+  border-radius: 15px;
+}
+iframe {
+  border-radius: 15px;
+
+}
+table {
+  border-radius: 15px;
+
+}
