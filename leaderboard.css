@@ -16,6 +16,9 @@ a {
 	margin: auto;
 	padding: 0;
 }
+.right {
+	padding: 10px;
+}
 th {
 	font-weight: bold;
 }
@@ -70,7 +73,6 @@ table {
   font-size: 16px;
   margin: 0;
   border: 1px solid white;
-  height: 42px;
 }
 .sbmtbtn:hover, .rulebtn:hover {
   background-color: rgba(20,20,20,1);
