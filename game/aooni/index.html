@@ -37,8 +37,8 @@ body {
 <div class="content">
 	
 <div class="neko">
-<button class="arial catbtn" onclick="catX1()">Die%</button>	
-<button class="arial catbtn" onclick="catX2()">Go in a closet and die%</button>	
+<button class="arial catbtn" onclick="cat1()">Die%</button>	
+<button class="arial catbtn" onclick="cat2()">Go in a closet and die%</button>	
 </div>	  
 
 <div class="board"> 
@@ -55,33 +55,22 @@ location.href = "../submit";
 function rules() {
 	alert("Die% \nTime Starts when pressing OK after naming your character \nTime ends on black screen after getting caught\n\nGo in a closet and die%\nTime Starts when pressing OK after naming your character\nTime ends on the first frame of oni opening the closet");
 };
+</script>
 	
-function catX1() {
-	location.href = "#die";
-}
-	
-function catX2() {
-	location.href = "#giacad";
-}
-
-	
-function test() {  
+<script>
     if (window.location.href.indexOf("#giacad") > -1) {
-    var x = document.getElementById("cat1");{
+    var x = document.getElementById("cat1");
     x.style.display = "block";
-    }
-    var x = document.getElementById("cat2");{
-    x.style.display = "none";
+    var y = document.getElementById("cat2");
+    y.style.display = "none";
     } 
+	    
     if (window.location.href.indexOf("#die") > -1) {
-    var x = document.getElementById("cat2");{
+    var x = document.getElementById("cat2");
     x.style.display = "block";
+    var y = document.getElementById("cat1");
+    y.style.display = "none";
     }
-    var x = document.getElementById("cat1");{
-    x.style.display = "none";
-    }
-}
-	
 </script>
 
 <div id="cat1">
