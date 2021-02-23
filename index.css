@@ -106,8 +106,10 @@ table {
 
 }
 .cover {
-  box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.6)
+  box-shadow: 0 0 0 2px rgba(0,0,0,0.6)
+  transition: all 200ms ease-out;
 }
 .cover:hover {
-  box-shadow: 2px 2px 2px 2px rgba(255,255,255,0.6)
+  box-shadow: 0 0 0 2px rgba(255,255,255,0.6)
+  transition: all 200ms ease-out;
 }
