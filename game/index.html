@@ -28,7 +28,7 @@ a {
 }
 </style>
 
-<body onload="moi();">
+<body onload="moi();moi2();">
 	
 <script>
 function moi() {
@@ -37,7 +37,17 @@ const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeig
 
 if (vw < vh) {
 	document.getElementByClassName("cover").width = "300";
-	alert("w < h");
+	alert("vw < vh");
+}
+}
+function moi2() {
+var sw = window.InnerWidth;
+var sh = window.InnerHeight;
+
+if (sw < sh) {
+	document.getElementByClassName("cover").width = "300";
+	document.getElementById("cover").width = "300";
+	alert("sw < sh");
 }
 }
 </script>
@@ -51,7 +61,7 @@ if (vw < vh) {
 <div class="center">
 
 <a href="/game/sm64">
-<img class="cover" src="https://siontea.com/img/thumb/thumb_sm64_2.png" widht="142" height="190" alt="sm64">
+<img class="cover" id="cover" src="https://siontea.com/img/thumb/thumb_sm64_2.png" widht="142" height="190" alt="sm64">
 </a>
 	
 <a href="/game/sm64/hacks">
