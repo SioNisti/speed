@@ -107,13 +107,14 @@ table {
 }
 .cover {
   box-shadow: 0 0 0 2px rgba(0,0,0,1)
-  transition: all 200ms ease-out;
+  transition: all 100ms ease-out;
   width: 142px;
   height: auto;
 }
 .cover:hover {
   transform: scale(1.1);
-  transition: all 200ms ease-out;
+  transition: all 100ms ease-out;
+  box-shadow: 0 0 0 2px rgba(255,255,255,1)
 }
 /* For devices 1000px and smaller: */
 @media only screen and (max-device-width: 1000px) {
@@ -121,6 +122,6 @@ table {
   width: 180px;
   height: auto;
   box-shadow: 0 0 0 2px rgba(0,0,0,1)
-  transition: all 200ms ease-out;
+  transition: all 100ms ease-out;
 }
 }
