@@ -29,35 +29,18 @@ body {
 </style>
 
 <body>
-<script>
-function dies() {
-  var x = document.getElementById("dies");{
-    x.style.display = "block";
-  }
-    var x = document.getElementById("giacad");
-    x.style.display = "none";
-  }
-</script>
-<script>
-function giacad() {
-  var x = document.getElementById("giacad");{
-    x.style.display = "block";
-  }
-  var x = document.getElementById("dies");
-    x.style.display = "none";
-  }
-</script>
+<script src="../category.js"> </script>
 
 <div class="center">
-
 <br/>
 <h1 class="gamename"> Ao Oni </h1>
-
 </div>
 	
+<div class="content">
+	
 <div class="neko">
-<button class="arial btn" onclick="dies()">Die%</button>	
-<button class="arial btn" onclick="giacad()">Go in a closet and die%</button>	
+<button class="arial btn" onclick="cat1()">Die%</button>	
+<button class="arial btn" onclick="cat2()">Go in a closet and die%</button>	
 </div>	  
 
 <div class="board"> 
@@ -76,14 +59,14 @@ function rules() {
 };
 </script>
 
-<div  id="dies">
+<div id="cat1">
 <table align="center" width="300">
 <thead>
 <tr>
     <th>#</th>
     <th>Runner</th>
     <th>Time</th>
-	<th>Date</th>
+    <th>Date</th>
 </tr>
 </thead>
 <tbody>
@@ -91,19 +74,19 @@ function rules() {
     <td>1st</td>
     <td class="bold">mrlink2k</td>
     <td>49.43</td>
-	<td>Mar 17, 2019</td>
+    <td>Mar 17, 2019</td>
 </tr>
 <tr onclick="window.location='/game/aooni/sion_die_4963.html';">
     <td>2nd</td>
     <td class="bold">SioN</td>
     <td>49.63</td>
-	<td>Mar 17, 2019</td>
+    <td>Mar 17, 2019</td>
 </tr>
 </tbody>
 </table>    
 </div> 
 	 
-<div  id="giacad" style="display:none">
+<div id="cat2" style="display:none">
 <table align="center" width="300">
 <thead>
 <tr>
@@ -117,14 +100,15 @@ function rules() {
 <tr onclick="window.location='/game/aooni/sion_giacad_105.html';">
     <td>1st</td>
     <td class="bold">SioN</td>
-	<td>1:05.32</td>
-	<td>Mar 17, 2019</td>
+    <td>1:05.32</td>
+    <td>Mar 17, 2019</td>
 </tr>
 </tbody>
 </table>  
 </div> 
 </div>    
  
+</div>
 </div>
 
 </body>
