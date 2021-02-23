@@ -50,7 +50,7 @@ a, p {
 	float:right;
 	position:relative;
 	left:50%;
-}
+}/*
 th {
 	font-weight: bold;
 }
@@ -75,7 +75,7 @@ td, th {
 
 tr:hover td {
     background-color: #1affa3;
-}
+}*/
 .btn {
   background-color: #ffffff;
   color: black;
