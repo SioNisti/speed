@@ -16,6 +16,7 @@ a {
 	background-color: rgba(0,0,0,0.0);
 	width: 55%;
 	margin: auto;
+	padding: 0;
 }
 th {
 	font-weight: bold;
