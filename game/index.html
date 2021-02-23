@@ -28,27 +28,20 @@ a {
 }
 </style>
 
-<body onload="moi();moi2();">
+<body onload="window.addEventListener('resize', setPanels); setPanels();">
 	
 <script>
-function moi() {
-const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
-const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0)
-
-if (vw < vh) {
-	document.getElementByClassName("cover").width = "300";
-	alert("vw < vh");
-}
-}
-function moi2() {
-var sw = window.InnerWidth;
-var sh = window.InnerHeight;
-
-if (sw < sh) {
-	document.getElementByClassName("cover").width = "300";
-	document.getElementById("cover").width = "300";
-	alert("sw < sh");
-}
+function setPanels()
+{
+  var windowWidth = window.innerWidth;
+  if(windowWidth < 500)
+  {
+    document.getElementById('cover').width = '300';
+  }
+  else
+  {
+    document.getElementById('cover').width = '142';
+  }
 }
 </script>
 
