@@ -80,3 +80,6 @@ table {
 .sbmtbtn:hover, .rulebtn:hover {
   background-color: rgba(20,20,20,1);
 }
+button {
+	cursor: pointer;
+}
