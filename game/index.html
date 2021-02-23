@@ -41,7 +41,15 @@ a {
 }
 </style>
 
-<body>
+<body onload="test()">
+	
+<script>
+function test() {
+  var w = window.innerWidth;
+  var h = window.innerHeight;
+  alert(w + " / " + h);
+}
+</script>
 	
 <div class="center">    
 <img style="max-width: 100%; height: auto;" src="https://siontea.com/img/random/logo_old.png">
