@@ -23,7 +23,6 @@ th {
 th.full {
 	text-align: center;
 	letter-spacing: 0.5px;
-	border-top: 1px solid White;
 	border-radius: 0px;
 }
 
@@ -63,29 +62,15 @@ table {
 .catbtn:hover {
   background-color: rgba(20,20,20,1);
 }
-.rulebtn {
+.sbmtbtn,rulebtn {
   background-color: rgba(0,0,0,1);
   color: white;
   padding: 16px 32px;
   text-align: center;
   font-size: 16px;
   margin: 0;
-  height: 61px;
   border: 1px solid white;
 }
-.rulebtn:hover {
-  background-color: rgba(20,20,20,1);
-}
-.sbmtbtn {
-  background-color: rgba(0,0,0,1);
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  font-size: 16px;
-  margin: 0;
-  height: 61px;
-  border: 1px solid white;
-}
-.sbmtbtn:hover {
+.sbmtbtn:hover,rulebtn:hover {
   background-color: rgba(20,20,20,1);
 }
