@@ -121,7 +121,7 @@ iframe, table {
   background-color: rgba(0,0,0,0.4);
   padding: 10px;
   border: 1px solid white;
-  height: 100vh;
+  max-height: 100%;
 }
 /* For devices 1000px and smaller: */
 @media only screen and (max-device-width: 1000px) {
