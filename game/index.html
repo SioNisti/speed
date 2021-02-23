@@ -50,7 +50,7 @@ a {
 function test() {
   var w = window.innerWidth;
   var h = window.innerHeight;
-  alert(w + "w / " + h + "h");
+  document.getElementById("test").innerHTML = w + "w / " + h + "h";
 }
 </script>
 	
@@ -58,6 +58,8 @@ function test() {
 <img style="max-width: 100%; height: auto;" src="https://siontea.com/img/random/logo_old.png">
 </div>
 
+<br/>
+<h1 id="test"></h1>
 <br/>
 
 <div class="center games">
