@@ -26,9 +26,18 @@ a {
   text-decoration: none;
 }
 .cover {
-  max-width: 20%;
-  max-height: 20%;
+  width: 142px;
   height: auto;
+}
+/* For devices 400px and larger: */
+@media only screen and (max-device-width: 1080px) {
+  body {
+	.cover {
+	  max-width: 20%;
+	  max-height: 20%;
+	  height: auto;
+	}
+  }
 }
 </style>
 
