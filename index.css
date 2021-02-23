@@ -118,10 +118,12 @@ iframe, table {
     font-size: 12px
 }
 .content {
-  height: 100vh;
   background-color: rgba(0,0,0,0.4);
   padding: 10px;
   border: 1px solid white;
+    position: fixed;
+    bottom: 0;
+    height: 100%;
 }
 /* For devices 1000px and smaller: */
 @media only screen and (max-device-width: 1000px) {
