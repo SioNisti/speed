@@ -6,17 +6,16 @@ a {
 }
 .board {
 	background-color: rgba(0,0,0,1);
-	border: 1px solid White;
-	width: 55%;
-	margin-left: 22.5%;
-}
-.neko {
-	background-color: rgba(0,0,0,1);
+	border-bottom: 1px solid White;
 	border-left: 1px solid White;
 	border-right: 1px solid White;
-	border-top: 1px solid White;
 	width: 55%;
-	margin-left: 22.5%;
+	margin: auto;
+}
+.neko {
+	background-color: rgba(0,0,0,0.0);
+	width: 55%;
+	margin: auto;
 }
 th {
 	font-weight: bold;
@@ -48,4 +47,16 @@ tr:hover td {
 }
 table {
 	width: 100%
+}
+.catbtn {
+  background-color: rgba(0,0,0,1);
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  height: 61px;
+}
+.catbtn:hover {
+  background-color: rgba(20,20,20,1);
 }
