@@ -4,25 +4,18 @@ function cat1() {
   }
     var x = document.getElementById("cat2");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat3");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat4");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat5");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat6");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat7");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat8");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat9");
     x.style.display = "none";
   }
@@ -33,25 +26,18 @@ function cat1() {
   }
     var x = document.getElementById("cat1");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat3");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat4");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat5");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat6");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat7");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat8");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat9");
     x.style.display = "none";
   }
@@ -62,25 +48,18 @@ function cat1() {
   }
     var x = document.getElementById("cat1");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat2");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat4");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat5");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat6");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat7");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat8");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat9");
     x.style.display = "none";
   }
@@ -91,25 +70,18 @@ function cat1() {
   }
     var x = document.getElementById("cat1");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat2");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat4");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat5");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat6");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat7");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat8");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat9");
     x.style.display = "none";
   }
@@ -120,25 +92,18 @@ function cat1() {
   }
     var x = document.getElementById("cat1");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat3");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat4");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat2");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat6");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat7");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat8");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat9");
     x.style.display = "none";
   }
@@ -149,25 +114,18 @@ function cat1() {
   }
     var x = document.getElementById("cat1");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat3");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat4");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat5");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat2");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat7");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat8");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat9");
     x.style.display = "none";
   }
@@ -178,25 +136,18 @@ function cat1() {
   }
     var x = document.getElementById("cat1");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat3");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat4");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat5");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat6");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat2");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat8");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat9");
     x.style.display = "none";
   }
@@ -207,25 +158,18 @@ function cat1() {
   }
     var x = document.getElementById("cat1");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat3");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat4");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat5");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat6");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat7");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat2");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat9");
     x.style.display = "none";
   }
@@ -236,25 +180,18 @@ function cat1() {
   }
     var x = document.getElementById("cat1");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat3");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat4");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat5");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat6");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat7");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat8");
     x.style.display = "none";
-  }
     var x = document.getElementById("cat2");
     x.style.display = "none";
   }
