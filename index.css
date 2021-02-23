@@ -33,13 +33,9 @@ h3 {
 	font-size:30px;
    	color: white;
 }
-a {
+a, p {
 	font-family:gothic;
     	color: white;
-}
-p {
-	font-family:gothic;
-      	color: white;
 }
 .center {
 	text-align:center;
@@ -95,14 +91,10 @@ tr:hover td {
   background-color: #1affa3;
   color: white;
   border: 1px solid  white;
-  border-radius: 15px;
+  border-radius: 8px;
 }
-iframe {
-  border-radius: 15px;
-
-}
-table {
-  border-radius: 15px;
+iframe, table {
+  border-radius: 8px;
 
 }
 .cover {
