@@ -41,6 +41,15 @@ a {
 .moi p {
     font-size: 10px
 }
+/* For devices 1000px and smaller: */
+@media only screen and (max-device-width: 1000px) {
+
+.moi {
+    text-align: justify;
+    width: 180px;
+    display: inline-block;
+}
+}
 </style>
 
 <body onload="test()">
@@ -80,14 +89,14 @@ window.addEventListener('resize', function(event){
 <a href="/game/oot">
 <img class="cover" src="https://siontea.com/img/thumb/thumb_oot_2.png" alt="oot">
 </a>
-<p>The Legend of Zelda: Ocarina of Time</p>
+<p>TLoZ: Ocarina of Time</p>
 </div>
     
 <div class="moi">
 <a href="/game/tp">
 <img class="cover" src="https://siontea.com/img/thumb/thumb_tp_2.png" alt="tp">
 </a>
-<p>The Legend of Zelda: Twilight Princess</p>
+<p>TLoZ: Twilight Princess</p>
 </div> 
     
 <div class="moi">
