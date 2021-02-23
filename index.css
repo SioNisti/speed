@@ -106,8 +106,8 @@ table {
 
 }
 .cover {
-  box-shadow: 4px 4px rgba(0,0,0,0.2);
+  box-shadow:0 2px 2px 0 rgba(0,0,0,0.2),0 2px 2px 0 rgba(0,0,0,0.19)
 }
 .cover:hover {
-  box-shadow: 4px 4px rgba(255,255,255,0.2);
+  box-shadow:0 2px 2px 0 rgba(255,255,255,0.2),0 2px 2px 0 rgba(255,255,255,255.19)
 }
