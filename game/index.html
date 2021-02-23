@@ -47,10 +47,16 @@ a {
 <body onload="test()">
 	
 <script>
-function test() {
+window.addEventListener('resize', function(event){
+
   var w = window.innerWidth;
   var h = window.innerHeight;
   document.getElementById("test").innerHTML = w + "w / " + h + "h";
+});
+function test() {
+  var w = window.innerWidth;
+  var h = window.innerHeight;
+  document.getElementById("test").innerHTML = "a";
 }
 </script>
 	
