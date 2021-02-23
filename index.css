@@ -98,7 +98,7 @@ iframe, table {
 
 }
 .cover {
-  box-shadow: 0 0 0 2px rgba(0,0,0,1)
+  box-shadow: 2px 2px 5px rgba(0,0,0,1)
   transition: all 100ms ease-out;
   width: 142px;
   height: auto;
@@ -106,19 +106,19 @@ iframe, table {
 .cover:hover {
   transform: scale(1.1);
   transition: all 100ms ease-out;
-  box-shadow: 0 0 0 2px rgba(255,255,255,1)
+  box-shadow: 2px 2px 5px rgba(255,255,255,1)
 }
 /* For devices 1000px and smaller: */
 @media only screen and (max-device-width: 1000px) {
 .cover {
   width: 180px;
   height: auto;
-  box-shadow: 0 0 0 2px rgba(0,0,0,1)
+  box-shadow: 2px 2px 5px rgba(0,0,0,1)
   transition: all 100ms ease-out;
 }
 .cover:hover {
   transform: scale(1.1);
   transition: all 100ms ease-out;
-  box-shadow: 0 0 0 2px rgba(255,255,255,1)
+  box-shadow: 2px 2px 5px rgba(255,255,255,1)
 }
 }
