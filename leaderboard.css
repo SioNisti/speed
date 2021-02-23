@@ -61,7 +61,6 @@ table {
   border-right: 1px solid white;
   border-top: 1px solid white;
   border-bottom: 1px solid black;
-  float: left;
   outline: 0;
 }
 .catbtn:hover {
