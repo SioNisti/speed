@@ -7,6 +7,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   background-image: url("https://siontea.com/img/background/background.png");
+  margin: 0px;
 }
 @font-face {
    font-family: gothic;
@@ -108,6 +109,20 @@ iframe, table {
   transition: all 100ms ease-out;
   box-shadow: 0 0 5px white;
 }
+.slot {
+    text-align: justify;
+    width: 142px;
+    display: inline-block;
+}
+.slot p {
+    font-size: 12px
+}
+.content {
+  height: 100vh;
+  background-color: rgba(0,0,0,0.4);
+  padding: 10px;
+  border: 1px solid white;
+}
 /* For devices 1000px and smaller: */
 @media only screen and (max-device-width: 1000px) {
 .cover {
@@ -120,5 +135,13 @@ iframe, table {
   transform: scale(1.1);
   transition: all 100ms ease-out;
   box-shadow: 0 0 5px white;
+}
+.slot {
+    text-align: justify;
+    width: 180px;
+    display: inline-block;
+}
+.slot p {
+    font-size: 14px
 }
 }
