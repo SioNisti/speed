@@ -31,13 +31,11 @@ a {
 }
 /* For devices 1000px and larger: */
 @media only screen and (max-device-width: 1000px) {
-  body {
-	.cover {
-	  max-width: 20%;
-	  max-height: 20%;
-	  height: auto;
-	}
-  }
+.cover {
+  max-width: 20%;
+  max-height: 20%;
+  height: auto;
+}
 }
 </style>
 
@@ -47,7 +45,7 @@ a {
 function test() {
   var w = window.innerWidth;
   var h = window.innerHeight;
-  alert(w + " / " + h);
+  alert(w + "w / " + h + "h");
 }
 </script>
 	
