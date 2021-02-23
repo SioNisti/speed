@@ -116,4 +116,9 @@ iframe, table {
   box-shadow: 0 0 0 2px rgba(0,0,0,1)
   transition: all 100ms ease-out;
 }
+.cover:hover {
+  transform: scale(1.1);
+  transition: all 100ms ease-out;
+  box-shadow: 0 0 0 2px rgba(255,255,255,1)
+}
 }
