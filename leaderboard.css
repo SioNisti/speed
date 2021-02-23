@@ -5,7 +5,7 @@ a {
 	color:white;
 }
 .board {
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,1);
 	border: 1px solid White;
 	width: 55%;
 	margin-left: 22.5%;
@@ -43,7 +43,7 @@ td, th {
 }
 
 tr:hover td {
-    background-color: #FFFFFF;
+        background-color: #FFFFFF;
 	color: black;
 }
 table {
