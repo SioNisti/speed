@@ -1,8 +1,12 @@
 .gamename {
 	margin-top: 1%;
 	text-shadow: 0 0 4px black;
-        font-size: 7.09812108559499vw;
+     font-size: 68px;
 }
+@media screen and (min-width: 1200px) {
+  .gamename {
+     font-size: 34px;
+  }
 a {
 	color:white;
 }
