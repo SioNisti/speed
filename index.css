@@ -8,6 +8,9 @@ body {
   background-size: cover;
   background-image: url("https://siontea.com/img/background/background.png");
   margin: 0px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 @font-face {
    font-family: gothic;
@@ -92,18 +95,17 @@ iframe, table {
 .slot p {
     font-size: 12px
 }
+.logo {
+  height: auto;
+}
 .content {
   background-color: rgba(0,0,0,0.4);
   padding: 10px;
   border: 1px solid white;
-  height: 100%;
-}
-.logo {
-  height: auto;
+  flex: 1;
 }
 .content, .logo {
   width: 100%;
-  display: table-row;
 }
 /* For devices 1000px and smaller: */
 @media only screen and (max-device-width: 1000px) {
