@@ -1,4 +1,4 @@
-var cat = 1;
+var catvar = 1;
 
 function cat1() {
   var x = document.getElementById("cat1");{
@@ -21,7 +21,7 @@ function cat1() {
     var x = document.getElementById("cat9");
     x.style.display = "none";
   
-    cat = 1;
+    catvar = 1;
   }
   
   function cat2() {
@@ -45,7 +45,7 @@ function cat1() {
     var x = document.getElementById("cat9");
     x.style.display = "none";
   
-    cat = 2;
+    catvar = 2;
   }
   
   function cat3() {
@@ -69,7 +69,7 @@ function cat1() {
     var x = document.getElementById("cat9");
     x.style.display = "none";
   
-    cat = 3;
+    catvar = 3;
   }
   
   function cat4() {
@@ -93,7 +93,7 @@ function cat1() {
     var x = document.getElementById("cat9");
     x.style.display = "none";
   
-    cat = 4;
+    catvar = 4;
   }
   
   function cat5() {
@@ -117,7 +117,7 @@ function cat1() {
     var x = document.getElementById("cat9");
     x.style.display = "none";
   
-    cat = 5;
+    catvar = 5;
   }
   
   function cat6() {
@@ -141,7 +141,7 @@ function cat1() {
     var x = document.getElementById("cat9");
     x.style.display = "none";
   
-    cat = 6;
+    catvar = 6;
   }
   
   function cat7() {
@@ -165,7 +165,7 @@ function cat1() {
     var x = document.getElementById("cat9");
     x.style.display = "none";
   
-    cat = 7;
+    catvar = 7;
   }
   
   function cat8() {
@@ -189,7 +189,7 @@ function cat1() {
     var x = document.getElementById("cat9");
     x.style.display = "none";
   
-    cat = 8;
+    catvar = 8;
   }
   
   function cat9() {
@@ -213,5 +213,5 @@ function cat1() {
     var x = document.getElementById("cat2");
     x.style.display = "none";
   
-    cat = 9;
+    catvar = 9;
   }
