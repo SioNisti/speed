@@ -67,6 +67,7 @@ table {
   height: 61px;
   border: 1px solid white;
   outline: 0;
+  width: auto;
 }
 .catbtn:hover {
   background-color: rgba(20,20,20,1);
@@ -80,6 +81,7 @@ table {
   margin: 0;
   border: 1px solid white;
   border-radius: 4px;
+  width: auto;
 }
 .sbmtbtn:hover, .rulebtn:hover {
   background-color: rgba(20,20,20,1);
