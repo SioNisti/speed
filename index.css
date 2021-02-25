@@ -8,7 +8,7 @@ body {
   background-size: cover;
   background-image: url("https://siontea.com/img/background/background.png");
   margin: 0px;
-  height: 100vh;
+  min-height: 100%;
 }
 @font-face {
    font-family: gothic;
