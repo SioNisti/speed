@@ -8,7 +8,6 @@ body {
   background-size: cover;
   background-image: url("https://siontea.com/img/background/background.png");
   margin: 0px;
-  min-height: 100%;
 }
 @font-face {
    font-family: gothic;
@@ -52,32 +51,7 @@ a, p {
 	float:right;
 	position:relative;
 	left:50%;
-}/*
-th {
-	font-weight: bold;
 }
-
-th.full {
-	text-align: center;
-	letter-spacing: 0.5px;
-	border: 1px solid black;
-	border-radius: 4px;
-}
-
-td, th, tr {
-	padding: 0.35em 1.5em;
-	text-align: center;
-	background: #ffffff;
-}
-
-td, th {
-	font-family: gothic;
-	border-radius: 4px;
-}
-
-tr:hover td {
-    background-color: #1affa3;
-}*/
 .btn {
   background-color: #ffffff;
   color: black;
@@ -122,12 +96,14 @@ iframe, table {
   background-color: rgba(0,0,0,0.4);
   padding: 10px;
   border: 1px solid white;
-  /*height: 100vh;*/
-}
-.content, body {
-  display: table-row;
   height: 100%;
+}
+.logo {
+  height: auto;
+}
+.content, .logo {
   width: 100%;
+  display: table-row;
 }
 /* For devices 1000px and smaller: */
 @media only screen and (max-device-width: 1000px) {
