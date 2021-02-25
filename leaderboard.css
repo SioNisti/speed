@@ -1,6 +1,7 @@
 .gamename {
 	font-size: 68px;
 	margin-top: 2%;
+	text-shadow: 0 0 4px black;
 }
 a {
 	color:white;
