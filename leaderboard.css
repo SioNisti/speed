@@ -7,7 +7,7 @@ a {
 	color:white;
 }
 .board {
-	background-color: rgba(0,0,0,1);
+	background-color: rgba(0,0,0,0.6);
 	border: 1px solid White;
 	min-width: 410px;
 	width: 55%;
@@ -20,6 +20,10 @@ a {
 	margin: auto;
 	padding: 0;
 	font-size: 0;
+}
+table {
+	background-color: rgba(0,0,0,0.0);
+	width: 100%;
 }
 .right {
 	padding: 10px;
@@ -54,9 +58,6 @@ tr:hover td {
         background-color: #FFFFFF;
 	color: black;
 }
-table {
-	width: 100%
-}
 .catbtn {
   background-color: rgba(0,0,0,1);
   color: white;
@@ -67,6 +68,7 @@ table {
   border: 1px solid white;
   outline: 0;
   width: auto;
+  display: block;
 }
 .catbtn:hover {
   background-color: rgba(20,20,20,1);
