@@ -68,7 +68,7 @@ tr:hover td {
   border: 1px solid white;
   outline: 0;
   width: auto;
-  display: block;
+  box-sizing: border-box
 }
 .catbtn:hover {
   background-color: rgba(20,20,20,1);
@@ -89,6 +89,7 @@ tr:hover td {
 }
 button {
 	cursor: pointer;
+	background-color: rgba(0,0,0,0.6);
 }
 @media only screen and (max-device-width: 1000px) {
 .board, .neko {
