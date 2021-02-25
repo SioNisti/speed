@@ -8,14 +8,14 @@ a {
 .board {
 	background-color: rgba(0,0,0,1);
 	border: 1px solid White;
-	min-width: 300px;
+	min-width: 372px;
 	width: 60%;
 	/*width: 55%;*/
 	margin: auto;
 }
 .neko {
 	background-color: rgba(0,0,0,0.0);
-	min-width: 300px;
+	min-width: 372px;
 	width: 60%;
 	margin: auto;
 	padding: 0;
@@ -52,7 +52,7 @@ tr:hover td {
 	color: black;
 }
 table {
-	min-width: 300px;
+	min-width: 372px;
 	width: 100%
 }
 .catbtn {
