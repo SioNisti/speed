@@ -46,11 +46,11 @@ body {
 <div class="left">   
 <button class="arial rulebtn" onclick="sub1()">Easy</button>	
 <button class="arial rulebtn" onclick="sub2()">Normal</button>
-</div>	
 	
 <div class="right">   
 <button class="arial rulebtn" onclick="rules()">Rules</button>	
 <button id="submit" class="arial sbmtbtn" >Submit run</button>
+</div>	
 </div>	
 
 <script>
@@ -72,16 +72,45 @@ function sub2() {
 	alert(sub);
 }
 	
-if (sub == 1) {
-    var x = document.getElementById("sub1");{
+if (sub == 1 && cat == 1) {
+    var x = document.getElementById("cat1"); {
     x.style.display = "block";
   }
     var x = document.getElementById("sub2");
     x.style.display = "none";
+  }	
+if (sub == 2 && cat == 1) {
+    var x = document.getElementById("cat2"); {
+    x.style.display = "block";
+  }
+    var x = document.getElementById("sub1");
+    x.style.display = "none";
   }
 	
-if (sub == 2) {
-    var x = document.getElementById("sub2");{
+if (sub == 2 && cat == 1) {
+    var x = document.getElementById("cat3"); {
+    x.style.display = "block";
+  }
+    var x = document.getElementById("sub2");
+    x.style.display = "none";
+  }	
+if (sub == 2 && cat == 2) {
+    var x = document.getElementById("cat4"); {
+    x.style.display = "block";
+  }
+    var x = document.getElementById("sub1");
+    x.style.display = "none";
+  }
+	
+if (sub == 3 && cat == 1) {
+    var x = document.getElementById("cat5"); {
+    x.style.display = "block";
+  }
+    var x = document.getElementById("sub2");
+    x.style.display = "none";
+  }	
+if (sub == 3 && cat == 2) {
+    var x = document.getElementById("cat6"); {
     x.style.display = "block";
   }
     var x = document.getElementById("sub1");
