@@ -1,4 +1,8 @@
 var catvar = 1;
+ 
+document.getElementById("gamename").onclick = function () {
+location.href = "https://speed.siontea.com";
+};
 
 function cat1() {
   var x = document.getElementById("cat1");{
