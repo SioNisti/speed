@@ -80,7 +80,7 @@ function cat1() {
     x.style.display = "none";
     var x = document.getElementById("cat2");
     x.style.display = "none";
-    var x = document.getElementById("cat4");
+    var x = document.getElementById("cat3");
     x.style.display = "none";
     var x = document.getElementById("cat5");
     x.style.display = "none";
