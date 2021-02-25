@@ -1,7 +1,7 @@
 var catvar = 1;
  
-document.getElementById("gamename").onclick = function () {
-alert("https://speed.siontea.com");
+document.getElementsByClassName("gamename").onclick = function () {
+location.href = "https://speed.siontea.com";
 };
 
 function cat1() {
