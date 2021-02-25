@@ -96,7 +96,7 @@ iframe, table {
     font-size: 12px
 }
 .logo {
-  height: auto;
+  height: 162px;
 }
 .content {
   background-color: rgba(0,0,0,0.4);
@@ -104,10 +104,10 @@ iframe, table {
   border: 1px solid white;
   flex: 1;
 }
+/*
 .content, .logo {
   width: 100%;
-}
-/* For devices 1000px and smaller: */
+} For devices 1000px and smaller: */
 @media only screen and (max-device-width: 1000px) {
 .cover {
   box-shadow: 0 0 5px black;
