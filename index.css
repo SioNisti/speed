@@ -100,7 +100,6 @@ iframe, table {
 }
 .content {
   background-color: rgba(0,0,0,0.4);
-  width: 100%;
   padding: 10px;
   border: 1px solid white;
   flex: 1;
