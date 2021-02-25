@@ -9,14 +9,14 @@ a {
 	background-color: rgba(0,0,0,1);
 	border: 1px solid White;
 	min-width: 300px;
-	width: 100%;
+	width: 60%;
 	/*width: 55%;*/
 	margin: auto;
 }
 .neko {
 	background-color: rgba(0,0,0,0.0);
 	min-width: 300px;
-	width: 100%;
+	width: 60%;
 	margin: auto;
 	padding: 0;
 	font-size: 0;
@@ -89,7 +89,7 @@ button {
 	cursor: pointer;
 }
 @media only screen and (max-device-width: 1000px) {
-table, .neko {
+table, .board, .neko {
 	width: 95%;
 }
 td, th, tr {
