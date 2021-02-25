@@ -103,6 +103,7 @@ iframe, table {
   padding: 10px;
   border: 1px solid white;
   flex: 1;
+  box-shadow: 0 0 5px black;
 }
 /*
 .content, .logo {
