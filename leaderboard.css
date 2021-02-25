@@ -1,8 +1,7 @@
 .gamename {
-	font-size: 68px;
 	margin-top: 1%;
 	text-shadow: 0 0 4px black;
-        font-size: 68px;
+        font-size: 68vw;
 }
 @media screen and (min-width: 1200px) {
   .gamename {
