@@ -49,6 +49,7 @@ tr:hover td {
 	color: black;
 }
 table {
+	min-width: 300px;
 	width: 100%
 }
 .catbtn {
