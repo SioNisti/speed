@@ -44,12 +44,16 @@ body {
 <div class="board"> 
 <div class="right">   
 <button class="arial rulebtn" onclick="rules()">Rules</button>	
-<button id="submit" class="arial sbmtbtn" >Submit run</button>
+<button id="submit1" class="arial sbmtbtn cat1" >Submit run</button>
+<button id="submit2" class="arial sbmtbtn cat2" style="display:none" >Submit run</button>
 </div>	
 
 <script>
-document.getElementById("submit").onclick = function () {
-location.href = "../submit";
+document.getElementById("submit1").onclick = function () {
+location.href = "https://submit.siontea.com/?aooni[die]";
+};
+document.getElementById("submit2").onclick = function () {
+location.href = "https://submit.siontea.com/?aooni[giacad]";
 };
 
 function rules() {
