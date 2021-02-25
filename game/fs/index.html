@@ -37,15 +37,17 @@ body {
 <div class="content">
 	
 <div class="neko">
-<button class="arial catbtn" onclick="cat1()">Clock (E)</button>	
-<button class="arial catbtn" onclick="cat2()">Clock (N)</button>	
-<button class="arial catbtn" onclick="cat3()">Tarmo (E)</button>	
-<button class="arial catbtn" onclick="cat4()">Tarmo (N)</button>	
-<button class="arial catbtn" onclick="cat5()">True Clock (E)</button>	
-<button class="arial catbtn" onclick="cat6()">True Clock (N)</button>	
+<button class="arial catbtn" onclick="cat1()">Clock</button>	
+<button class="arial catbtn" onclick="cat3()">Tarmo</button>	
+<button class="arial catbtn" onclick="cat5()">True Clock</button>	
 </div>	  
 
 <div class="board"> 
+<div class="left">   
+<button class="arial catbtn" onclick="sub1()">Easy</button>	
+<button class="arial catbtn" onclick="sub2()">Normal</button>
+</div>	
+	
 <div class="right">   
 <button class="arial rulebtn" onclick="rules()">Rules</button>	
 <button id="submit" class="arial sbmtbtn" >Submit run</button>
@@ -59,9 +61,33 @@ alert("email submit@siontea.com with your run information\n\nRunner: \nGame: \nC
 function rules() {
 	alert("Use the most recent version\nNo secret codes");
 };
+	
+function sub1() {
+	var sub = 1;
+}
+	
+function sub2() {
+	var sub = 2;
+}
+	
+if (sub == 1) {
+    var x = document.getElementById("sub1");{
+    x.style.display = "block";
+  }
+    var x = document.getElementById("sub2");
+    x.style.display = "none";
+  }
+	
+if (sub == 2) {
+    var x = document.getElementById("sub2");{
+    x.style.display = "block";
+  }
+    var x = document.getElementById("sub1");
+    x.style.display = "none";
+  }
 </script>
 	
-<div id="cat1">
+<div id="cat1 sub1">
 <table align="center">
 <thead>
 <tr>
@@ -95,7 +121,7 @@ function rules() {
 </table>
 </div>    
   
-<div id="cat2" style="display:none">
+<div id="cat2 sub2" style="display:none">
 <table align="center">
 <thead>
 <tr>
@@ -122,7 +148,7 @@ function rules() {
 </table>    
 </div> 
 	 
-<div id="cat3" style="display:none">
+<div id="cat3 sub1" style="display:none">
 <table align="center">
 <thead>
 <tr>
@@ -143,7 +169,7 @@ function rules() {
 </table>   
 </div> 
 	
-<div id="cat4" style="display:none">
+<div id="cat4 sub2" style="display:none">
 <table align="center">
 <thead>
 <tr>
@@ -164,7 +190,7 @@ function rules() {
 </table>    
 </div>	
 	
-<div id="cat5" style="display:none">
+<div id="cat5 sub1" style="display:none">
 <table align="center">
 <thead>
 <tr>
@@ -185,7 +211,7 @@ function rules() {
 </table>    
 </div> 
 	
-<div id="cat6" style="display:none">
+<div id="cat6 sub2" style="display:none">
 <table align="center">
 <thead>
 <tr>
