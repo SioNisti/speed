@@ -59,7 +59,6 @@ tr:hover td {
 	color: black;
 }
 .catbtn {
-  background-color: rgba(0,0,0,1);
   color: white;
   padding: 16px;
   text-align: center;
@@ -68,13 +67,9 @@ tr:hover td {
   border: 1px solid white;
   outline: 0;
   width: auto;
-  box-sizing: border-box
-}
-.catbtn:hover {
-  background-color: rgba(20,20,20,1);
+  box-sizing: border-box;
 }
 .sbmtbtn, .rulebtn {
-  background-color: rgba(0,0,0,1);
   color: white;
   padding: 16px;
   text-align: center;
@@ -84,8 +79,8 @@ tr:hover td {
   border-radius: 4px;
   width: auto;
 }
-.sbmtbtn:hover, .rulebtn:hover {
-  background-color: rgba(20,20,20,1);
+.sbmtbtn:hover, .rulebtn:hover, .catbtn:hover {
+  background-color: rgba(20,20,20,0.6);
 }
 button {
 	cursor: pointer;
