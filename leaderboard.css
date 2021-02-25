@@ -89,10 +89,16 @@ button {
 	cursor: pointer;
 }
 @media only screen and (max-device-width: 1000px) {
-table, .board, .neko {
+.board, .neko {
 	width: 95%;
 }
+table {
+	width: 100%;
+}
 td, th, tr {
+	font-size: 22px;
+}
+button {
 	font-size: 22px;
 }
 }
