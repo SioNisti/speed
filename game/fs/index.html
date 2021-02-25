@@ -37,20 +37,18 @@ body {
 <div class="content">
 	
 <div class="neko">
-<button class="arial catbtn" onclick="cat1()">Clock</button>	
-<button class="arial catbtn" onclick="cat3()">Tarmo</button>	
-<button class="arial catbtn" onclick="cat5()">True Clock</button>	
+<button class="arial catbtn" onclick="cat1()">Clock (E)</button>	
+<button class="arial catbtn" onclick="cat2()">Clock (N)</button>	
+<button class="arial catbtn" onclick="cat3()">Tarmo (E)</button>	
+<button class="arial catbtn" onclick="cat4()">Tarmo (N)</button>	
+<button class="arial catbtn" onclick="cat5()">True Clock (E)</button>	
+<button class="arial catbtn" onclick="cat6()">True Clock (N)</button>		
 </div>	  
 
 <div class="board"> 
-<div class="left">   
-<button class="arial rulebtn" onclick="sub1()">Easy</button>	
-<button class="arial rulebtn" onclick="sub2()">Normal</button>
-	
 <div class="right">   
 <button class="arial rulebtn" onclick="rules()">Rules</button>	
 <button id="submit" class="arial sbmtbtn" >Submit run</button>
-</div>	
 </div>	
 
 <script>
@@ -61,64 +59,9 @@ alert("email submit@siontea.com with your run information\n\nRunner: \nGame: \nC
 function rules() {
 	alert("Use the most recent version\nNo secret codes");
 };
-	
-function sub1() {
-	var sub = 1;
-	alert(sub);
-}
-	
-function sub2() {
-	var sub = 2;
-	alert(sub);
-}
-	
-if (sub == 1 && cat == 1) {
-    var x = document.getElementById("cat1"); {
-    x.style.display = "block";
-  }
-    var x = document.getElementById("sub2");
-    x.style.display = "none";
-  }	
-if (sub == 2 && cat == 1) {
-    var x = document.getElementById("cat2"); {
-    x.style.display = "block";
-  }
-    var x = document.getElementById("sub1");
-    x.style.display = "none";
-  }
-	
-if (sub == 2 && cat == 1) {
-    var x = document.getElementById("cat3"); {
-    x.style.display = "block";
-  }
-    var x = document.getElementById("sub2");
-    x.style.display = "none";
-  }	
-if (sub == 2 && cat == 2) {
-    var x = document.getElementById("cat4"); {
-    x.style.display = "block";
-  }
-    var x = document.getElementById("sub1");
-    x.style.display = "none";
-  }
-	
-if (sub == 3 && cat == 1) {
-    var x = document.getElementById("cat5"); {
-    x.style.display = "block";
-  }
-    var x = document.getElementById("sub2");
-    x.style.display = "none";
-  }	
-if (sub == 3 && cat == 2) {
-    var x = document.getElementById("cat6"); {
-    x.style.display = "block";
-  }
-    var x = document.getElementById("sub1");
-    x.style.display = "none";
-  }
 </script>
 	
-<div id="cat1 sub1">
+<div id="cat1">
 <table align="center">
 <thead>
 <tr>
@@ -152,7 +95,7 @@ if (sub == 3 && cat == 2) {
 </table>
 </div>    
   
-<div id="cat2 sub2" style="display:none">
+<div id="cat2" style="display:none">
 <table align="center">
 <thead>
 <tr>
@@ -179,7 +122,7 @@ if (sub == 3 && cat == 2) {
 </table>    
 </div> 
 	 
-<div id="cat3 sub1" style="display:none">
+<div id="cat3" style="display:none">
 <table align="center">
 <thead>
 <tr>
@@ -200,7 +143,7 @@ if (sub == 3 && cat == 2) {
 </table>   
 </div> 
 	
-<div id="cat4 sub2" style="display:none">
+<div id="cat4" style="display:none">
 <table align="center">
 <thead>
 <tr>
@@ -221,7 +164,7 @@ if (sub == 3 && cat == 2) {
 </table>    
 </div>	
 	
-<div id="cat5 sub1" style="display:none">
+<div id="cat5" style="display:none">
 <table align="center">
 <thead>
 <tr>
@@ -242,7 +185,7 @@ if (sub == 3 && cat == 2) {
 </table>    
 </div> 
 	
-<div id="cat6 sub2" style="display:none">
+<div id="cat6" style="display:none">
 <table align="center">
 <thead>
 <tr>
