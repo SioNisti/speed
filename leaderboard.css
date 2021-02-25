@@ -67,7 +67,6 @@ tr:hover td {
   border: 1px solid white;
   outline: 0;
   width: auto;
-  box-sizing: border-box;
 }
 .sbmtbtn, .rulebtn {
   color: white;
