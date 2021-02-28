@@ -102,7 +102,7 @@ iframe, table {
   height: 162px;
   padding: 5px;
 }
-.logo img{
+#tea {
   width: auto;
   max-height: 162px;
 }
@@ -129,7 +129,7 @@ iframe, table {
   transition: all 100ms ease-out;
   box-shadow: 0 0 5px white;
 }
-.logo img{
+#tea {
   width: auto;
   max-height: 81.5px;
 }
