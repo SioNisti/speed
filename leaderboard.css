@@ -25,6 +25,7 @@ a {
 table {
 	background-color: rgba(0,0,0,0.0);
 	width: 100%;
+	align: center;
 }
 .right {
 	padding: 10px;
