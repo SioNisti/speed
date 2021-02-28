@@ -100,7 +100,7 @@ iframe, table {
 }
 .logo {
   height: 162px;
-  padding: 5px;
+  padding: 8px;
 }
 #tea {
   width: auto;
@@ -131,7 +131,8 @@ iframe, table {
 }
 #tea {
   width: auto;
-  max-height: 81.5px;
+  max-height: 120px;
+  padding: 8px;
 }
 .slot {
     text-align: justify;
