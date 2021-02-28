@@ -100,6 +100,7 @@ iframe, table {
 }
 .logo {
   height: 162px;
+  padding: 5px;
 }
 .content {
   background-color: rgba(0,0,0,0.4);
