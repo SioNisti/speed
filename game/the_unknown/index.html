@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang=en-US>
+<meta charset="UTF-8">
+<head>
+
+<title>The Unknown - speed.siontea.com</title>
+
+<link rel="icon" type="image/vnd.microsoft.icon" href="https://speed.siontea.com/image/siontea.png" />
+<link rel="stylesheet" href="https://speed.siontea.com/index.css"> 
+<link rel="stylesheet" href="https://speed.siontea.com/leaderboard.css"> 
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2R3KB9L1KF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2R3KB9L1KF');
+</script>
+    
+</head>
+
+<style> 
+body {
+  background-image: url("https://speed.siontea.com/image/background/the_unknown.png");
+}
+</style>
+
+<body>
+
+<div class="center logo" height="162px">
+<br/>
+<h1 class="gamename"> The Unknown </h1>
+</div>
+	
+<div class="content">
+	
+<div class="neko">
+<button class="catbtn" onclick="cat1()">Beat The Game</button>	
+</div>	
+
+<div class="board"> 
+<div class="right">   
+<button class="rulebtn" onclick="rules()">Rules</button>	
+<button id="submit" class="sbmtbtn" >Submit run</button>
+</div>	
+
+<script>
+document.getElementById("submit").onclick = function () {
+alert("email submit@siontea.com with your run information\n\nRunner: \nGame: \nCategory: \nTime: \nPlatform: \nVideo Link: \nComment(this one is optional):");
+};
+
+function rules() {
+	alert("Beat The Game\n\n-The goal is to get to the end screen\n-Must have video proof\n\nDue to recent rule change now we time runs with real time so time begins first frame you move and ends on the frame the block appears on the last screen");
+};
+</script>
+		 
+<div id="btg%">
+<table align="center">
+<thead>
+<tr>
+    <th>#</th>
+    <th>Runner</th>
+    <th>Time</th>
+    <th>Date</th>
+</tr>
+</thead>
+<tbody>
+<tr onclick="window.location='/game/theunknown/finiego_btg_36.html';" title="don't tell AK ;)">
+    <td>1st</td>
+    <td class="bold">Finiego</td>
+    <td>36.600</td>
+    <td>27/8/2019</td>
+</tr>
+<tr onclick="window.location='/game/theunknown/sion_btg_37.html';" title="dum dum >:(">
+    <td>2nd</td>
+    <td class="bold">SioN</td>
+    <td>37.700</td>
+    <td>26/8/2019</td>
+</tr>
+<tr onclick="window.location='/game/theunknown/akillezii_btg_38.html';" title="finiego bop part 2">
+    <td>3rd</td>
+    <td class="bold">AkillezII</td>
+    <td>38.700</td>
+    <td>27/8/2019</td>
+</tr>
+</tbody>
+</table>     
+</div>   
+ 
+</div>
+	
+<script src="../category.js"> </script>
+
+</body>
+</html>
