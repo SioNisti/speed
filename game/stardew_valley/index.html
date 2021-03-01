@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang=en-US>
+<meta charset="UTF-8">
+<head>
+
+<title>Super Mario Sunshine - speed.siontea.com</title>
+
+<link rel="icon" type="image/vnd.microsoft.icon" href="https://speed.siontea.com/image/siontea.png" />
+<link rel="stylesheet" href="https://speed.siontea.com/index.css"> 
+<link rel="stylesheet" href="https://speed.siontea.com/leaderboard.css"> 
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2R3KB9L1KF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2R3KB9L1KF');
+</script>
+    
+</head>
+
+<style> 
+body {
+  background-image: url("https://speed.siontea.com/image/background/stardew_valley.png");
+}
+</style>
+
+<body>
+
+<div class="center logo" height="162px">
+<br/>
+<h1 class="gamename"> Stardew Valley </h1>
+</div>
+	
+<div class="content">
+	
+<div class="neko">
+<button class="catbtn" onclick="cat1()">Halibut</button>
+</div>	
+
+<div class="board"> 
+<div class="right">   
+<button class="rulebtn" onclick="rules()">Rules</button>	
+<button id="submit" class="sbmtbtn" >Submit run</button>
+</div>	
+
+<script>
+document.getElementById("submit").onclick = function () {
+alert("email submit@siontea.com with your run information\n\nRunner: \nGame: \nCategory: \nTime: \nPlatform: \nVideo Link: \nComment(this one is optional):");
+};
+
+function rules() {
+	alert("Halibut% \nTime Starts when pressing OK on character creation \nTime ends on the frame halibut appears on your hotbar\n Item id trick isnt allowed");
+};
+</script>
+	
+<div  id="cat1">
+<table>
+<thead>
+<tr>
+    <th>#</th>
+    <th>Runner</th>
+    <th>Time</th>
+    <th>Date</th>
+</tr>
+</thead>
+<tbody>
+<tr onclick="window.location='/game/stardew/mrlink2k_halibut_142.html';" title="lmao">
+    <td>1st</td>
+    <td class="bold">mrlink2k</td>
+    <td>1:41.153</td>
+    <td>21/9/2019</td>
+</tr>
+<tr onclick="window.location='/game/stardew/sion_halibut_210.html';">
+    <td>2nd</td>
+    <td class="bold">SioN</td>
+    <td>2:10.960</td>
+    <td>21/9/2019</td>
+</tr>
+<tr onclick="window.location='/game/stardew/dnvic_halibut_220.html';" title="gay">
+    <td>3rd</td>
+    <td class="bold">DNVIC</td>
+    <td>2:20.410</td>
+    <td>21/9/2019</td>
+</tr>
+</tbody>
+</table>    
+</div>   
+ 
+</div>
+	
+<script src="../category.js"> </script>
+
+</body>
+</html>
