@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang=en-US>
+<meta charset="UTF-8">
+<head>
+
+<title>Super Mario 64 - speed.siontea.com</title>
+
+<link rel="icon" type="image/vnd.microsoft.icon" href="https://speed.siontea.com/image/siontea.png" />
+<link rel="stylesheet" href="https://speed.siontea.com/index.css"> 
+<link rel="stylesheet" href="https://speed.siontea.com/leaderboard.css"> 
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2R3KB9L1KF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2R3KB9L1KF');
+</script>
+    
+</head>
+
+<style> 
+body {
+  background-image: url("https://speed.siontea.com/image/background/sm64.png");
+}
+.neko, .board {
+  min-width: 570px;
+}
+</style>
+
+<body>
+
+<div class="center logo" height="162px">
+<br/>
+<h1 class="gamename"> Super Mario 64 </h1>
+</div>
+	
+<div class="content">
+	
+<div class="neko">
+<button class="catbnt" onclick="cat1()">YTOoB Emulator</button>	
+<button class="catbnt" onclick="cat2()">YTOoB GameCube</button>	
+<button class="catbnt" onclick="cat3()">YTOoB Nintendont</button>
+</div>	 
+
+<div class="board"> 
+<div class="right">   
+<button class="rulebtn" onclick="rules()">Rules</button>	
+<button id="submit" class="sbmtbtn" >Submit run</button>
+</div>	
+
+<script>
+document.getElementById("submit").onclick = function () {
+alert("email submit@siontea.com with your run information\n\nRunner: \nGame: \nCategory: \nTime: \nPlatform: \nVideo Link: \nComment(this one is optional):");
+};
+
+function rules() {
+	alert("Yellow Toad OoB\nTalk to the yellow toad out of bounds\nTime starts on file select\nTime ends when mario's butt hits the ground when dying after talking to toad\n\nSkipping the starting cutscene is allowed");
+};
+</script>
+	
+<div id="cat1">
+<table>
+<thead>
+<tr>
+    <th>#</th>
+    <th>Runner</th>
+    <th>Time</th>
+    <th>Date</th>
+</tr>
+</thead>
+<tbody>
+<tr onclick="window.location='/game/sms/mrlink2k_ytoob_1255.html';">
+    <td>1st</td>
+    <td class="bold">mrlink2k</td>
+    <td>12:55</td>
+    <td>14/1/2019</td>
+</tr>	
+<tr onclick="window.location='/game/sms/sion_ytoob_1335.html';">
+    <td>2nd</td>
+    <td class="bold">SioN</td>
+    <td>13:35</td>
+    <td>14/1/2019</td>
+</tr>
+</tbody>
+</table>    
+</div>    	
+  
+<div id="cat2" style="display:none">
+<table>
+<thead>
+<tr>
+    <th>#</th>
+    <th>Runner</th>
+    <th>Time</th>
+    <th>Date</th>
+</tr>
+</thead>
+<tbody>
+<tr onclick="window.location='/game/sms/dnvic_ytoob_4422.html';">
+    <td>1st</td>
+    <td class="bold">DNVIC</td>
+    <td>44:22</td>
+    <td>21/9/2019</td>
+</tr>
+</tbody>
+</table>    
+</div> 
+
+<div id="cat3" style="display:none">
+<table>
+<thead>
+<tr>
+    <th>#</th>
+    <th>Runner</th>
+    <th>Time</th>
+    <th>Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+    <td>1st</td>
+    <td class="bold">-</td>
+    <td>-</td>
+    <td>-</td>
+</tr>
+</tbody>
+</table>      
+</div>   
+ 
+</div>
+	
+<script src="../category.js"> </script>
+
+</body>
+</html>
