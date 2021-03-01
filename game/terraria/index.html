@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang=en-US>
+<meta charset="UTF-8">
+<head>
+
+<title>Terraria - speed.siontea.com</title>
+
+<link rel="icon" type="image/vnd.microsoft.icon" href="https://speed.siontea.com/image/siontea.png" />
+<link rel="stylesheet" href="https://speed.siontea.com/index.css"> 
+<link rel="stylesheet" href="https://speed.siontea.com/leaderboard.css"> 
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2R3KB9L1KF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2R3KB9L1KF');
+</script>
+    
+</head>
+
+<style> 
+body {
+  background-image: url("https://speed.siontea.com/image/background/terraria.png");
+}
+</style>
+
+<body>
+
+<div class="center logo" height="162px">
+<br/>
+<h1 class="gamename"> Terraria </h1>
+</div>
+	
+<div class="content">
+	
+<div class="neko">
+<button class="catbtn" onclick="cat1()">Umbrella% Random Seed</button>	
+<button class="catbtn" onclick="cat2()">Umbrella% Seeded</button>	
+</div>	
+
+<div class="board"> 
+<div class="right">   
+<button class="rulebtn" onclick="rules()">Rules</button>	
+<button id="submit" class="sbmtbtn" >Submit run</button>
+</div>	
+
+<script>
+document.getElementById("submit").onclick = function () {
+alert("email submit@siontea.com with your run information\n\nRunner: \nGame: \nCategory: \nTime: \nPlatform: \nVideo Link: \nComment(this one is optional):");
+};
+
+function rules() {
+	alert("Umbrella%\nThe goal is to get the Umbrella item (found in chests)\nTime starts when you enter the world and ends on the frame the umbrella is in your inventory\n\n- in Seeded runs you must show the seed\n- video must show world and character creation");
+};
+</script>
+		 
+<div id="cat1">
+<table align="center">
+<thead>
+<tr>
+    <th>#</th>
+    <th>Runner</th>
+    <th>Time</th>
+    <th>Date</th>
+</tr>
+</thead>
+<tbody>
+<tr onclick="window.location='/game/terraria/mrlink2k_umbrellaRS_153.html';">
+    <td>1st</td>
+    <td class="bold">mrlink2k</td>
+    <td>1:53</td>
+    <td>Dec 1, 2018</td>
+</tr>
+</tbody>
+</table>    
+</div>    	
+	
+
+<div id="cat2" style="display:none">
+<table align="center">
+<thead>
+<tr>
+    <th>#</th>
+    <th>Runner</th>
+    <th>Time</th>
+    <th>Date</th>
+</tr>
+</thead>
+<tbody>
+<tr onclick="window.location='/game/terraria/sion_umbrellaS_20029.html';">
+    <td>1st</td>
+    <td class="bold">SioN</td>
+    <td>20.029</td>
+    <td>Dec 1, 2018</td>
+</tr>
+</tbody>
+</table>    
+</div>   
+ 
+</div>
+	
+<script src="../category.js"> </script>
+
+</body>
+</html>
